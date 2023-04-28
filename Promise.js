@@ -18,18 +18,19 @@ class MyPromise {
 			if (this.state === PENDING) {
 				this.state = REJECTED;
 				this.result = error;
+			}
+		}
+		try{
+			executor(resolve, reject)
+		} catch (error) {
+			reject(error);
 		}
 	}
-	executor(resolve, reject)
 }
 
 //Promise does not block the thread
-const promise = new Promise((resolve, rejected) => {
-  setTimeout(() =>{
-    resolve('error')
-  },10)
-}).then((value) => {
-  console.log(value)
-}, (error) => {
-  console.log(error)
+const promise = new myPromise((resolve, rejected) => {
+    resolve('success')
 })
+
+console.log(promise);
