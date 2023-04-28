@@ -1,17 +1,30 @@
 //Class initialization
 class Box {
-	constructor(name) {
+	_age  = 0;
+
+	constructor(name, age) {
 		console.log('Creating Class')
 		this.name = name
+		this.age = age
 	}
+
 	hi() {
 		console.log('Hello ' + this.name)
+	}
+	
+	set age(value) {
+		this._age = value;
+		console.log('Change')
+	}
+	
+	get age() {
+		return this._age
 	}
 }
 
 //instance
-let myBox = new Box('John')
-let myBox1 = new Box()
+let myBox = new Box('John');
+let myBox1 = new Box('Otis');
 // myBox.name = 'John'
 
 const obj = {
