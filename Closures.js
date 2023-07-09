@@ -8,3 +8,5 @@ function foo() {
 y = 2;
 
 foo();
+
+y = 3;
