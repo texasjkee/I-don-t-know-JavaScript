@@ -1,2 +1,2 @@
 //By Demi Morych
-//Formula 
+//Formula of success
