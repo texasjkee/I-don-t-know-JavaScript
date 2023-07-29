@@ -1,2 +1,2 @@
 //By Demi Morych
-//Formula of success
+//Formula of success (As for JS)
