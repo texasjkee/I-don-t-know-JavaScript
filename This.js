@@ -2,7 +2,7 @@
 //Formula of success (As for JS)
 // I don't know what that mean.
 // const o = {
-//   prop: 37,
+//   prop: 33,
 //   f: function () {
 //     return this.prop;
 //   },
