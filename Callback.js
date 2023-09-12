@@ -3,7 +3,7 @@
   const cool = 1 + [1,2,3];
 console.log(typeof(cool))
 
-//Callback hell?
+//Callback hell
 fs.readdir(source, function (err, files) {
   if (err) {
     console.log('Error finding files: ' + err)
