@@ -5,7 +5,7 @@ function foo() {
   console.log(y)
 };
 
-y = 2;
+y = 22;
 
 foo();
 
