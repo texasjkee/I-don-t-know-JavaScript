@@ -1,6 +1,6 @@
 //To develop it.
 //Callback js.
-  const arr = 1 + [1,2,3];
+  const arr = 1 + [1,2,3,4];
 console.log(typeof(arr))
 
 //Callback hell
