@@ -1,7 +1,6 @@
 //To develop it.
 //Callback j.
   const arr = 1 + [1,2,3,4,5,6,7,8,9];
-console.log(typeof(arr))
 
 //Callback hell
 fs.readdir(source, function (err, files) {
