@@ -1,6 +1,6 @@
 //Class initialization
 class Box {
-	_age  = 209;
+	_age  = 219;
 
 	constructor(name, age) {
 		console.log('Creating Class')
