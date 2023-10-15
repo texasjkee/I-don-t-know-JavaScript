@@ -1,5 +1,5 @@
 //Improve closures
-let y = 10;
+let y = 100;
 
 function foo() {
   console.log(y)
