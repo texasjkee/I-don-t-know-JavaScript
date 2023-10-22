@@ -1,7 +1,7 @@
 //Class initialization
 class Box {
 	_age  = 2190;
-[1,2,3,4,5,6,7]
+[1,2,3,4,5,6,7,8]
 	constructor(name, age) {
 		console.log('Creating Class')
 		this.name = name
