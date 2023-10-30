@@ -29,6 +29,7 @@ class MyPromise {
 }
 
 // Promise does not block the thread
+
 const promise = new myPromise((resolve, rejected) => {
     resolve('success')
 })
